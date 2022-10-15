@@ -1,0 +1,22 @@
+/*reglas generales*/
+h1{
+    color: #00FF99;
+}
+/*Media Query*/
+
+/** Reescribir colores */
+#principal{
+    color: #AABBCC;
+}
+.box{
+    background-color: #AAFF00;
+    border: 2px solid black;
+}
+.a{
+    background-image: url(../img/principal.jpg);
+    border-bottom: 5px solid blue;
+}
+.b{
+    background-image: url(../img/producto1.jpg);
+}
+/** Productos */

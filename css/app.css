@@ -1,0 +1,90 @@
+:root{
+    --bs-blue: #037BC0;
+    --bs-green: #8cbc00;
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/** h1 **/
+h1{
+    font-size: 3.8rem;
+}
+
+@media(min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+/** h2 **/
+h2 {
+    font-size: 3.2rem;
+}
+@media(min-width: 768px) {
+    h2 {
+        font-size: 4rem;
+    }
+}
+/** h3 **/
+h3 {
+    font-size: 2.4rem;
+}
+@media(min-width: 768px) {
+    h3 {
+        font-size: 3rem;
+    }
+}
+
+/** Reescriir colores **/
+.text-primary,
+.nombre-sitio {
+    color: var(--bs-blue)!important;
+}
+
+.btn-success {
+    background-color: var(--bs-green)!important;
+}
+
+.bg-primary,
+.btn-primary {
+    background-color:var(--bs-blue)!important;
+}
+
+/** hero **/
+.hero{
+    background-image: url(../img/principal.jpg);    
+    height: 25rem; 
+    background-size: cover ;
+    background-position: center center;
+}
+
+@media(min-width: 768px){
+    .hero{
+        height: 55rem;
+    }
+}
+
+/** Productos **/
+
+
+/** Categorias **/
+section div div div img:hover{
+    transform: scale(1.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+/** footer **/
